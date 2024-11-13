@@ -1,0 +1,78 @@
+body {
+    background-image: url(official_login_b.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    color: white !important;
+}
+
+.hero-section {
+    margin-top: 80px;
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.hero-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+.thumbnail {
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail .caption {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    line-height: 50px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 30px 10px;
+    }
+
+    .hero-section h2 {
+        font-size: 2em;
+    }
+
+    .hero-section p {
+        font-size: 1em;
+    }
+}
